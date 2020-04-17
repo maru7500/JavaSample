@@ -8,9 +8,11 @@ public class JavaSampleClass {
 		
 		String str1 = cl.name;
 		
+		int age = cl.age;
+		
 		String str2 = cl.TestMethod();
 		
-		System.out.println(str1 + str2);
+		System.out.println(str1 + " is " + age + ":"+ str2);
 
 	}
 
